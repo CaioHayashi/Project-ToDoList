@@ -84,9 +84,9 @@ h1 {
 @media (max-width: 400px) {
 
     .container {
-        width: 83%;
+        width: 84%;
     }
     #input {
-        width: 16rem;
+        width: 15rem;
     }
 }
