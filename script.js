@@ -4,7 +4,7 @@ const res = document.getElementById("res")
 
 const tasks = []
 
-console.log(tasks)
+
 
 
 
@@ -48,7 +48,7 @@ function removeElement () {
         //???
     }
 }
-
+console.log(tasks)
 const JString = JSON.stringify(tasks)
 localStorage.setItem("bank", JString)
 

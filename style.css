@@ -24,7 +24,7 @@ h1 {
 }
 
 .div-shadow {
-    margin: 15px ;
+    margin: 15px 0px ;
     width: 20rem;
     height: 60px;
     border-radius: 5px;
@@ -32,9 +32,10 @@ h1 {
     padding: 15px;
     text-align: left;
     background-color: white;
-    
+}
 
-
+#res {
+    float: left;
 }
 
 .check {
@@ -81,12 +82,15 @@ h1 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 700px) {
 
     .container {
-        width: 84%;
+        width: 83%;
     }
     #input {
         width: 15rem;
     }
+    .div-shadow {
+        margin: 15px 0px;
+        width: 17rem;
 }
